@@ -11,8 +11,8 @@ public class RollerCoaster {
 		this.name = name;
 	}
 
-	// To string method for person
+	// To string method for Rollercoaster
 	public String toString() {
-		return "[" + name + ", " + height + ", " + numOfRiders + "]";
+		return "[Name: " + name + ", Height: " + height + ", Number of Riders: " + numOfRiders + "]";
 	}
 }

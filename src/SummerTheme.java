@@ -45,7 +45,7 @@ public abstract class SummerTheme implements ThemePark {
 
 	public abstract void parking(String brand, int wheels, String color);
 
-	public abstract void rollerCoasters(String name, int height, int numOfRiders);
+	
 	
 	
 

@@ -4,6 +4,8 @@
  * 12/22/2015
  */
 
+import java.util.*;
+
 public abstract interface ThemePark {
 	// Abstract Classes
 	public abstract String displayAttendants();
@@ -11,7 +13,7 @@ public abstract interface ThemePark {
 	public abstract int capacity(int age, String eyeColor, String gender);
 	// Concrete Classes
 	public abstract void parking(String brand, int wheels, String color);
-	public abstract String parkMap();
-	public abstract void rollerCoasters(String name, int height, int numOfRiders);
+	public abstract String parkMap(ArrayList ride);
+
 
 }

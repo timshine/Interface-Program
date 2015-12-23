@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class SixFlags {
+public class SixFlags extends SummerTheme {
 	
 	ArrayList<Car> parkingLot;
 	ArrayList<RollerCoaster> rollercoaster;
@@ -24,5 +24,7 @@ public class SixFlags {
 			rollercoaster.add(new RollerCoaster(name, height, numOfRiders));
 
 		}
+		
+		
 	
 }

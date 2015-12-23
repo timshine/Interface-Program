@@ -19,9 +19,10 @@ public class MountainCreek extends SummerTheme {
 	}
 
 	//Adds the water rides to the park and hold them in an arraylist
-	public void waterRide(String name, int height, int numOfRiders) {
+	public void waterRide(String name, int height, int depth, int levelSwimmer) {
 		ride = new ArrayList<WaterRide>();
-		ride.add(new RollerCoaster(name, height, numOfRiders));
+		ride.add(new WaterRide(name, height, depth, levelSwimmer));
 
 
+	}
 }

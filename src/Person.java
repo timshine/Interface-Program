@@ -13,6 +13,6 @@ public class Person {
 
 	// To string method for person
 	public String toString() {
-		return "[" + age + ", " + eyeColor + ", " + gender + "]";
+		return "[Age: " + age + ", Eye Color: " + eyeColor + ", Gender: " + gender + "]";
 	}
 }
